@@ -1,11 +1,19 @@
 .bg-dark {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(26, 25, 25);
 }
 
 .text-light {
-    color: rgb(144, 178, 191)
+    color: rgb(143, 196, 217)
 }
 
 .box-med {
     background-color: rgba(63, 86, 99, 0.326);
+}
+
+.box-green {
+    background-color: #408e71;
+}
+
+.text-green {
+    color: #9cbf6d;
 }

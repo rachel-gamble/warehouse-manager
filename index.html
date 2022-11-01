@@ -10,16 +10,33 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body class="bg-dark">
-    <header>
+<body class="bg-dark text-green">
+    <header class="text-center p-5 text-green">
         <!-- place navbar here -->
+        📦🎁 Warehouse Manager 🎁📦
     </header>
     <main class="container-fluid">
+        <!---SECTION ALL PACKAGES-->
+        <section class="row d-flex flex-wrap"></section>
+        <div class="align">
+            <p class="fs-3 col-1">FILTER:</p>
+            <div class="btn btn text-light COL-2" onclick="drawPackages()">ALL</div>
+            <div class="btn btn text-light COL-3" onclick="filterFragile()">FRAGILE</div>
+            <div class="btn btn text-light COL-3" onclick="filterHeavy() ">HEAVY</div>
+            <div class="btn btn text-light COL-3" onclick="drawStandard('standard')">STANDARD</div>
+            <div class="btn btn text-light COL-3" onclick="drawStandard('priority')">PRIORITY</div>
+        </div>
+
+        <section class="row" id="packages">
+
+        </section>
 
     </main>
+    <script src="app.js"></script>
     <footer>
         <!-- place footer here -->
     </footer>
@@ -31,7 +48,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
-    <script src="app.js"></script>
 </body>
 
 </html>
