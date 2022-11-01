@@ -1,0 +1,11 @@
+.bg-dark {
+    background-color: rgb(40, 40, 40);
+}
+
+.text-light {
+    color: rgb(144, 178, 191)
+}
+
+.box-med {
+    background-color: rgba(63, 86, 99, 0.326);
+}
